@@ -240,7 +240,7 @@
 			let mode = getCookie("bgmode") || "free";
 			if (mode === "fallin") {
             	const img = document.createElement('img');
-            	img.src = '404/1.webp';
+            	img.src = 'https://pizzasdu83.github.io/404/1.webp';
             	img.classList.add('falling-image');
 
 				const randomScale = Math.floor(Math.random() * 720) - 360;
